@@ -1,0 +1,28 @@
+snippet ase
+    self.assertEqual(${1:expected}, ${0:actual})
+snippet asne
+    self.assertNotEqual(${1:expected}, ${0:actual})
+snippet ast
+    self.assertTrue(${1:expected})
+snippet asnt
+    self.assertNotTrue(${1:expected})
+snippet asis
+    self.assertIs(${1:expected}, ${0:actual})
+snippet asint
+    self.assertIsNot(${1:expected}, ${0:actual})
+snippet asn
+    self.assertIsNone(${1:expected})
+snippet asnn
+    self.assertIsNotNone(${1:expected})
+snippet asin
+    self.assertIn(${1:member}, ${0:collection})
+snippet asnin
+    self.assertNotIn(${1:expected}, ${0:actual})
+snippet asii
+    self.assertIsInstance(${1:expected}, ${0:actual})
+snippet asnii
+    self.assertNotIsInstance(${1:expected}, ${0:actual})
+snippet asr
+    self.assertRaises(${1:exception})
+snippet asrr
+    self.assertRaisesRegexp(${1:exception}, ${0:regexp})
